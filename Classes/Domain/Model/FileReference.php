@@ -49,7 +49,7 @@ class FileReference extends \TYPO3\CMS\Extbase\Domain\Model\FileReference
     protected $link;
 
     /**
-     * @var bool
+     * @var int
      */
     protected $showinpreview;
 
@@ -162,7 +162,7 @@ class FileReference extends \TYPO3\CMS\Extbase\Domain\Model\FileReference
     /**
      * Set showinpreview
      *
-     * @param bool $showinpreview
+     * @param int $showinpreview
      * @return void
      */
     public function setShowinpreview($showinpreview)
@@ -173,7 +173,7 @@ class FileReference extends \TYPO3\CMS\Extbase\Domain\Model\FileReference
     /**
      * Get showinpreview
      *
-     * @return bool
+     * @return int
      */
     public function getShowinpreview()
     {
